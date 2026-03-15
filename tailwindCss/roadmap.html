@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>GriNCH | Путь</title>
+</head>
+<body class="text-slate-200 antialiased relative animate-gradient-bg">
+
+    <header class="sticky top-0 z-50 flex flex-col sm:flex-row justify-between items-center px-4 md:px-8 py-4 bg-slate-950/80 backdrop-blur-md text-slate-200 border-b border-emerald-500/20 gap-4 sm:gap-0">
+        
+        <div class="flex items-center gap-4 w-full sm:w-auto justify-center sm:justify-start">
+            <img src="assets/logo.jpg" alt="Логотип" class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-emerald-500 object-cover">
+            <span class="text-emerald-400 font-bold tracking-widest text-lg md:text-xl">GriNCH</span>
+        </div>
+
+        <div class="flex items-center gap-4 md:gap-8">
+            <nav class="flex gap-4 md:gap-8 font-medium text-sm md:text-base">
+                <a href="index.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Главная</a>
+                <a href="roadmap.html" class="text-emerald-400 font-bold">Путь</a>
+                <a href="projects.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Проекты</a>
+            </nav>
+
+            <div class="w-px h-6 bg-slate-700 hidden sm:block"></div>
+
+            <div class="relative group">
+                <button class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-slate-300 hover:text-emerald-400 transition-all text-xs font-bold tracking-widest uppercase shadow-sm cursor-pointer">
+                    <svg class="w-4 h-4 opacity-70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    RU
+                    <svg class="w-3 h-3 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+
+                <div class="absolute right-0 mt-2 w-24 bg-slate-900 border border-slate-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 overflow-hidden z-50">
+                    <div class="flex flex-col text-xs font-bold tracking-widest uppercase">
+                        <a href="roadmap.html" class="px-4 py-3 text-emerald-400 bg-slate-800/80 cursor-default border-b border-slate-800 flex justify-between items-center">
+                            RU <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                        </a>
+                        <a href="eng/roadmap.html" class="px-4 py-3 text-slate-400 hover:text-emerald-400 hover:bg-slate-800 transition-colors border-b border-slate-800">EN</a>
+                        <a href="cz/roadmap.html" class="px-4 py-3 text-slate-400 hover:text-emerald-400 hover:bg-slate-800 transition-colors">CZ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6 py-16">
+        <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 mb-16 text-center">
+            История <span class="text-emerald-400">Трансформации</span>
+        </h1>
+
+        <div class="relative border-l-2 border-emerald-500/20 pl-8 space-y-16 ml-4">
+            <div class="relative">
+                <div class="absolute w-4 h-4 bg-slate-700 rounded-full -left-[41px] top-1"></div>
+                <div class="text-sm text-slate-500 font-bold tracking-widest uppercase mb-1">Точка отсчета</div>
+                <h3 class="text-2xl font-semibold text-slate-300 mb-4">Первые шаги в IT Step</h3>
+                <div class="bg-slate-900/30 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm">
+                    <p class="text-slate-400 leading-relaxed">
+                        Ещё подростком я впервые попал в IT Step Academy. Именно тогда я написал свои первые строчки кода и понял базовую логику работы программ. Это было круто, но тогда этот интерес просто отложился на полку, дожидаясь своего осознанного часа.
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="absolute w-4 h-4 bg-slate-700 rounded-full -left-[41px] top-1"></div>
+                <div class="text-sm text-slate-500 font-bold tracking-widest uppercase mb-1">Переходная ступень</div>
+                <h3 class="text-2xl font-semibold text-slate-300 mb-4">Управляющий складом</h3>
+                <div class="bg-slate-900/30 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm">
+                    <p class="text-slate-400 leading-relaxed">
+                        При переезде в Прагу я устроился на работу управляющим складом. Это был новый опыт, который научил меня организованности, ответственности и работе с людьми. Но при  этом не оставлял в стороне свою любовь к программированию,продолжая учиться и развиваться в этом направлении.
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="absolute w-4 h-4 bg-emerald-500 rounded-full -left-[41px] top-1 shadow-[0_0_12px_rgba(16,185,129,0.8)]"></div>
+                <div class="text-sm text-emerald-400 font-bold tracking-widest uppercase mb-1">Текущая фаза & Вектор</div>
+                <h3 class="text-2xl font-semibold text-slate-100 mb-4">Web-разработка & Backend</h3>
+                <div class="bg-slate-900/50 border border-emerald-500/30 rounded-2xl p-6 backdrop-blur-sm shadow-[0_0_15px_rgba(16,185,129,0.05)]">
+                    <p class="text-slate-300 leading-relaxed">
+                        Сейчас я снова учусь в IT Step Academy, погружаюсь во фронтенд. В планах: освоить Backend и научиться собирать крутые и сложные проекты самостоятельно.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="w-full border-t border-slate-800/80 bg-slate-950/30 backdrop-blur-md mt-16">
+        <div class="max-w-4xl mx-auto px-6 py-8 text-center text-slate-600 text-sm">
+            <p>@2026 Дмитрий Зелёный.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
